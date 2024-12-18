@@ -8,6 +8,7 @@ import SideContent from './components/SideContent';
 
 
 
+
 const {Sider, Header,Content} = Layout;
 const App = () => {
 const [collapsed, setCollapsed] = useState(false)
@@ -31,10 +32,14 @@ const [collapsed, setCollapsed] = useState(false)
             <MainContent/>
             <SideContent/>
           </Flex>
+
+         
+
         </Content>
       </Layout>
      
     </Layout>
+    //36
   )
 }
 
