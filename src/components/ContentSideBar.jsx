@@ -9,7 +9,7 @@ const ContentSideBar = () => {
     <Card className='card'>
         <Flex vertical gap='large'>
             <Typography.Title level={4} strong>
-                Today <br/> 5 orders
+                Today <br/> 7 orders
             </Typography.Title>
 
             <Typography.Title level={4} strong>

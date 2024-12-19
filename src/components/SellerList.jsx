@@ -4,13 +4,13 @@ import React from 'react';
 const SellerList = () => {
   return (
     <div>
-      <Flex align="center" justify="space-between" gap="large" className="seller-list-container">
+      <Flex  justify="space-between" gap="large" className="seller-list-container">
         <Flex vertical='row' gap="small" className="top-seller">
+        <Flex align="center" justify="space-between">
           <Typography.Title level={5} strong className="primary--color">
             Top Seller
           </Typography.Title>
-          <Flex >
-          <Button type="link" className="gray--color">
+          <Button type="link" className="gray--color view-all-button">
             View All
           </Button>
           </Flex>
@@ -66,11 +66,11 @@ const SellerList = () => {
         </Flex>
 
         <Flex vertical='row' gap="small" className="featured-seller">
+          <Flex align='center' justify='space-between' >
           <Typography.Title level={5} strong className="primary--color">
             Featured Seller
           </Typography.Title>
-          <Flex >
-          <Button type="link" className="gray--color">
+          <Button type="link" className="gray--color  view-all-button">
             View All
           </Button>
           </Flex>

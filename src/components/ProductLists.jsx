@@ -11,7 +11,7 @@ const ProductLists = () => {
       <Typography.Title level={3} strong className='primary--color'>
         My Listing
       </Typography.Title>
-      <Button type='link' className='gray--color'>
+      <Button type='link' className='gray--color view-all-button'>
         View All
       </Button>
     </Flex>

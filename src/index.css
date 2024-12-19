@@ -124,3 +124,11 @@ body{
 .card{
   background-image:linear-gradient(to bottom, #4c7f79 , #87e8de);
 }
+
+.view-all-button:hover {
+  color: #173a1a;
+  background-color: #f0f8ff; 
+  border-radius: 4px; 
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+   
+}
