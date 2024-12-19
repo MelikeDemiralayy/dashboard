@@ -17,7 +17,7 @@ const ContentSideBar = () => {
                 240 orders
             </Typography.Title>
         </Flex>
-        <Image src={plant} alt='plant' style={{position:'absolute', bottom:-50, left: 12, height:'300px', width:'auto'}} />
+        <Image src={plant} alt='plant' style={{position:'absolute', bottom:-50, left:100,  height:'190px', width:'auto'}} />
 
     </Card>
    </div>
