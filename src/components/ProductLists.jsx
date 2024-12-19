@@ -20,6 +20,7 @@ const ProductLists = () => {
       {plantsData.map((plant) => (
         <Card key={plant.id} hoverable className='plant-card'>
           <Image src={plant.picture} style={{ width: '130px' }} />
+          <Meta title={plant.name} style={{marginTop:'1rem'}}/>
         </Card>
       ))}
     </Flex>

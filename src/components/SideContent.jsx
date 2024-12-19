@@ -1,10 +1,13 @@
+import { Flex } from 'antd'
 import React from 'react'
+import ContentSideBar from './ContentSideBar'
+
 
 const SideContent = () => {
   return (
-    <div style={{ width: 300 }}> 
-      Side content
-    </div>
+    <Flex style={{ width: 300 }}> 
+      <ContentSideBar/>
+    </Flex>
   )
 }
 
